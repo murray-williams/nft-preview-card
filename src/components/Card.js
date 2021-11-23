@@ -12,7 +12,7 @@ export default function Card() {
         <img src={NFT} alt="Equilibrium Image" />
         <h2>Equilibrium #3429</h2>
         <p>Our Equilibrium collection promotes balance and calm.</p>
-        <div className="nft-details">
+        <div className="details">
           <div className="details-left">
             <img src={ETHIcon} alt="ETH Icon" />
             <span>0.041 ETH</span>
@@ -22,6 +22,7 @@ export default function Card() {
             <span>3 days left</span>
           </div>
         </div>
+        <div className="author"></div>
       </div>
     </div>
   )

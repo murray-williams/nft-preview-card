@@ -19,30 +19,32 @@
   font-style: 18px;
   line-height: 22px;
 }
-.card-inner .nft-details {
+.card-inner .details {
   display: flex;
   justify-content: space-between;
   height: 20px;
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 15px;
 }
-.card-inner .nft-details .details-left {
+.card-inner .details .details-left {
   display: flex;
   color: var(--cyan);
   font-weight: 600;
 }
-.card-inner .nft-details .details-left span {
+.card-inner .details .details-left span {
   margin-left: 5px;
 }
-.card-inner .nft-details .details-left img {
+.card-inner .details .details-left img {
   width: 12px;
 }
-.card-inner .nft-details .details-right {
+.card-inner .details .details-right {
   display: flex;
   color: var(--softblue);
   font-size: 14px;
 }
-.card-inner .nft-details .details-right span {
+.card-inner .details .details-right span {
   margin-left: 5px;
 }
-.card-inner .nft-details .details-right img {
+.card-inner .details .details-right img {
   width: 18px;
 }
