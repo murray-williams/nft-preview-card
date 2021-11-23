@@ -46,6 +46,12 @@
   border-radius: 10px;
   background: var(--cyanalpha);
 }
+.card-inner h2 {
+  cursor: pointer;
+}
+.card-inner h2:hover {
+  color: var(--cyan);
+}
 .card-inner .details {
   display: flex;
   justify-content: space-between;
@@ -91,4 +97,8 @@
 .card-inner .author span {
   color: var(--white);
   font-weight: 600;
+  cursor: pointer;
+}
+.card-inner .author span:hover {
+  color: var(--cyan);
 }
