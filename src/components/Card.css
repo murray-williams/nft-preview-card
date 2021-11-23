@@ -1,0 +1,21 @@
+.card-container {
+  background-color: var(--cardbg);
+  width: 300px;
+  padding: 30px;
+  border-radius: 15px;
+}
+.card-container .card-inner {
+  text-align: left;
+  color: var(--white);
+}
+.card-container img {
+  width: 100%;
+}
+.card-inner h2 {
+  font-size: 22px;
+}
+.card-inner p {
+  color: var(--softblue);
+  font-style: 18px;
+  line-height: 22px;
+}
