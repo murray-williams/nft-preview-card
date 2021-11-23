@@ -1,6 +1,7 @@
 import NFT from '../assets/image-equilibrium.jpg'
 import ETHIcon from '../assets/icon-ethereum.svg'
 import ClockIcon from '../assets/icon-clock.svg'
+import Avatar from '../assets/image-avatar.png'
 
 // styles
 import './Card.css'
@@ -22,7 +23,12 @@ export default function Card() {
             <span>3 days left</span>
           </div>
         </div>
-        <div className="author"></div>
+        <div className="author">
+          <img src={Avatar} alt="Jules Wyvern" />
+          <p>
+            Creation of <span>Jules Wyvern</span>
+          </p>
+        </div>
       </div>
     </div>
   )
