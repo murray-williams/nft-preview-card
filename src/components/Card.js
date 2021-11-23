@@ -1,6 +1,7 @@
 import NFT from '../assets/image-equilibrium.jpg'
 import ETHIcon from '../assets/icon-ethereum.svg'
 import ClockIcon from '../assets/icon-clock.svg'
+import ViewIcon from '../assets/icon-view.svg'
 import Avatar from '../assets/image-avatar.png'
 
 // styles
@@ -10,7 +11,14 @@ export default function Card() {
   return (
     <div className="card-container">
       <div className="card-inner">
-        <img src={NFT} alt="Equilibrium Image" />
+        <div className="image-container">
+          <img src={NFT} alt="Equilibrium Image" />
+          <div className="image-overlay">
+            <div className="view-icon">
+              <img src={ViewIcon} />
+            </div>
+          </div>
+        </div>
         <h2>Equilibrium #3429</h2>
         <p>Our Equilibrium collection promotes balance and calm.</p>
         <div className="details">
