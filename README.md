@@ -11,7 +11,6 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 - [My process](#my-process)
   - [Built with](#built-with)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -43,7 +42,3 @@ Users should be able to:
 
 - Website - [Murray Williams](https://waterfalldigital.co.za/)
 - Frontend Mentor - [@murray-williams](https://www.frontendmentor.io/profile/murray-williams)
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
