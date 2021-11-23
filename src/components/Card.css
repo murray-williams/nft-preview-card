@@ -35,10 +35,10 @@
   color: #fff;
 }
 .image-container .view-icon {
-  width: 20px;
+  width: 48px;
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: calc(50% - 24px);
+  left: calc(50% - 24px);
 }
 .image-container:hover .image-overlay {
   display: block;
