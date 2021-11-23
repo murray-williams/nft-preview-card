@@ -2,7 +2,7 @@
   width: 100vw;
   height: 100vh;
   text-align: center;
-  background-color: blue;
+  background-color: var(--mainbg);
   display: flex;
   justify-content: center;
   align-items: center;
