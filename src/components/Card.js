@@ -15,7 +15,7 @@ export default function Card() {
           <img src={NFT} alt="Equilibrium Image" />
           <div className="image-overlay">
             <div className="view-icon">
-              <img src={ViewIcon} />
+              <img src={ViewIcon} alt="View Icon" />
             </div>
           </div>
         </div>
