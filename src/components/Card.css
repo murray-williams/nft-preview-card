@@ -10,6 +10,7 @@
 }
 .card-container img {
   width: 100%;
+  border-radius: 10px;
 }
 .card-inner h2 {
   font-size: 22px;
@@ -50,7 +51,7 @@
 }
 .card-inner .author {
   display: flex;
-  margin-top: 10px;
+  margin: 10px 0 0;
   align-items: center;
   font-size: 16px;
 }
