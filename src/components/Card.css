@@ -22,12 +22,27 @@
 .card-inner .nft-details {
   display: flex;
   justify-content: space-between;
+  height: 20px;
 }
 .card-inner .nft-details .details-left {
+  display: flex;
   color: var(--cyan);
   font-weight: 600;
 }
+.card-inner .nft-details .details-left span {
+  margin-left: 5px;
+}
+.card-inner .nft-details .details-left img {
+  width: 12px;
+}
 .card-inner .nft-details .details-right {
+  display: flex;
   color: var(--softblue);
   font-size: 14px;
+}
+.card-inner .nft-details .details-right span {
+  margin-left: 5px;
+}
+.card-inner .nft-details .details-right img {
+  width: 18px;
 }
