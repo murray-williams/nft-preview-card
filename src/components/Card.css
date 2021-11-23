@@ -19,3 +19,15 @@
   font-style: 18px;
   line-height: 22px;
 }
+.card-inner .nft-details {
+  display: flex;
+  justify-content: space-between;
+}
+.card-inner .nft-details .details-left {
+  color: var(--cyan);
+  font-weight: 600;
+}
+.card-inner .nft-details .details-right {
+  color: var(--softblue);
+  font-size: 14px;
+}
