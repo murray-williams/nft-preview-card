@@ -26,12 +26,13 @@
 }
 .image-container .image-overlay {
   position: absolute;
-
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  display: none;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0.3s, opacity 0.3s;
   color: #fff;
 }
 .image-container .view-icon {
@@ -41,7 +42,8 @@
   left: calc(50% - 24px);
 }
 .image-container:hover .image-overlay {
-  display: block;
+  visibility: visible;
+  opacity: 1;
   cursor: pointer;
   border-radius: 10px;
   background: var(--cyanalpha);
